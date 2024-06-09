@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(to right,rgb(156, 156, 199), rgb(148, 143, 143), rgb(156, 156, 199));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#counter{
+    padding: 50px;
+    background-color:rgb(26, 33, 42);
+    border-radius: 30px;
+    border: solid;
+}
+#count{
+    border: solid;
+    padding: 40px;
+    display: flex;
+    background-color: bisque;
+    border-radius: 50px;
+    align-items: center;
+    
+}
+
+#demoo{
+    padding: 30px;
+    background-color: yellow;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    border : solid;
+
+}
+#buttons button
+
+{
+    border :solid;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 30px;
+    cursor: pointer;
+}
+#buttons button :hover{
+    background-color: aqua;
+}
